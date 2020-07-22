@@ -1,0 +1,88 @@
+.image {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+  object-fit: cover;
+}
+.logo {
+  color: #183153;
+}
+
+
+
+
+body{
+  width: 100%;
+  font-family: 'Dosis', sans-serif;
+  background-color:
+  color: white;
+  font-size: 100%;
+  line-height: 35px;
+
+}
+
+.back-white{
+  height: 100%;
+  width: 100%;
+    background-image: url(images/background_books.jpg);
+
+  background-color: rgba(255,255,255, 0.8);
+}
+.ww {
+    background-color: rgba(255,255,255, 0.2);
+
+}
+
+.contenu {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  padding: 2px;
+  margin: 50px auto;
+  background-color: #D7D7D7;
+  }
+
+h1{
+  color: #F3F3F3;
+}
+
+.box1 {
+  background-color: #6A6A6A
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.list-inline a{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  display: inline;
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
